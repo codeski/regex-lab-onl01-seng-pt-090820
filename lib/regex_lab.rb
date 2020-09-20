@@ -1,10 +1,10 @@
 def starts_with_a_vowel?(word)
  match.each do |word|
         expect(starts_with_a_vowel?(word)).to be(true)
-      end
-    end
+ end
+end
  
-  word.match(/^[aeiou]/)
+  # word.match(/^[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
