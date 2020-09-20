@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
- match.each do |word|
+ match(/^[aeiou]/).each do |word|
         expect(starts_with_a_vowel?(word)).to be(true)
  end
 end
