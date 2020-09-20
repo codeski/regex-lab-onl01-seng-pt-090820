@@ -4,8 +4,7 @@ end
 
 require 'pry'
 def words_starting_with_un_and_ending_with_ing(text)
-  text.split.map{|x| x.scan(/^un+\w+ing/)}
-  binding.pry
+  text.scan(/^un+\w+ing/)
 end
 
 def words_five_letters_long(text)
