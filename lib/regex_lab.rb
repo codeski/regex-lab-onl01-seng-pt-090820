@@ -4,7 +4,7 @@ end
 
 require 'pry'
 def words_starting_with_un_and_ending_with_ing(text)
-  text.split.scan(/^[Uu]n+\w+ing/).map
+  text.scan(/^un+\w+ing/)
 end
 
 def words_five_letters_long(text)
