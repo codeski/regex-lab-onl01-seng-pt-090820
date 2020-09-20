@@ -3,7 +3,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.split.scan(/^un+\w+ing/).each 
+  text.split.map{|x| x.scan(/^un+\w+ing/)}
 end
 
 def words_five_letters_long(text)
